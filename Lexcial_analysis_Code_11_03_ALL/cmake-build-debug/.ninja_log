@@ -1,8 +1,0 @@
-# ninja log v5
-12	1793	1667464509948034962	CMakeFiles/CNN_Compiler.dir/LexAnalysis.cpp.o	7a4b0d6e043f7762
-11	1792	1667464509946697156	CMakeFiles/CNN_Compiler.dir/main.cpp.o	30c2ab57f595fee6
-5	5921	1667611394673322027	CMakeFiles/CNN_Compiler.dir/main.cpp.o	5f6953c8a64de6d8
-6	5934	1667611394683470969	CMakeFiles/CNN_Compiler.dir/LexAnalysis.cpp.o	d40d346e89d988a2
-12	4421	1667612224459843697	CMakeFiles/CNN_Compiler.dir/main.cpp.o	5f6953c8a64de6d8
-14	4422	1667612224463538267	CMakeFiles/CNN_Compiler.dir/LexAnalysis.cpp.o	d40d346e89d988a2
-4422	4969	1667612225013177693	CNN_Compiler	a0b5b5efb49af158

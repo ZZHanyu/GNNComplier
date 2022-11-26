@@ -1,0 +1,4 @@
+"/Users/taotao/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/taotao/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/taotao/Coding/ClionProjects/CNN_Compiler -B /Users/taotao/Coding/ClionProjects/CNN_Compiler/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/taotao/Coding/ClionProjects/CNN_Compiler/cmake-build-debug
