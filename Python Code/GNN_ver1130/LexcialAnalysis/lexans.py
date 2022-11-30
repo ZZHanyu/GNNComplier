@@ -148,34 +148,40 @@ class lexanalysis(object):
 
     #output method:
     def output_id(self):
-        print("=====Identifiers:=====\n")
-        print("Total:",self.count_id,"\n")
-        print(self.id)
+        #print("=====Identifiers:=====\n")
+        #print("Total:",self.count_id,"\n")
+        #print(self.id)
+        return self.id
 
     def output_cons(self):
-        print("=====Constants:=====\n")
-        print("Total:",self.count_cons,"\n")
-        print(self.cons)
+        #print("=====Constants:=====\n")
+        #print("Total:",self.count_cons,"\n")
+        #print(self.cons)
+        return self.cons
 
     def output_ops(self):
-        print("=====Operators:=====\n")
-        print("Total:",self.count_ops,"\n")
-        print(self.ops)
+        #print("=====Operators:=====\n")
+        #print("Total:",self.count_ops,"\n")
+        #print(self.ops)
+        return self.ops
 
     def output_delim(self):
-        print("=====Delimiters:=====\n")
-        print("Total:",self.count_delim,"\n")
-        print(self.delim)
+        #print("=====Delimiters:=====\n")
+        #print("Total:",self.count_delim,"\n")
+        #print(self.delim)
+        return self.delim
 
     def output_inv(self):
-        print("=====Invalid Identifers:=====\n")
-        print("Total:",self.count_inv,"\n")
-        print(self.inv)
+        #print("=====Invalid Identifers:=====\n")
+        #print("Total:",self.count_inv,"\n")
+        #print(self.inv)
+        return self.inv
 
     def output_keyw(self):
-        print("=====KeyWords:=====\n")
-        print("Total:",self.count_keyw,"\n")
-        print(self.keyw)
+        #print("=====KeyWords:=====\n")
+        #print("Total:",self.count_keyw,"\n")
+        #print(self.keyw)
+        return self.keyw
 
     def total_token(self):
         print("Total number of tokens: ", self.count_cons + self.count_delim + self.count_id + self.count_inv + self.count_ops + self.count_keyw)
