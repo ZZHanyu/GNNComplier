@@ -76,6 +76,7 @@ class lexanalysis(object):
 
     # Determine if the identifier is valid based on the return value
     def ValidIdentifier(self,str):
+
         if not((ord('a') <= ord(str[0]) <= ord('z')) or (ord('A') <= ord(str[0]) <= ord('Z')) or str[0] == '_'):
             return 0
         for i in range(1,len(str)):
@@ -153,19 +154,19 @@ class lexanalysis(object):
         #print(self.id)
         return self.id
 
-    def output_cons(self):
+    def output_cons(self): #1
         #print("=====Constants:=====\n")
         #print("Total:",self.count_cons,"\n")
         #print(self.cons)
         return self.cons
 
-    def output_ops(self):
+    def output_ops(self): #2
         #print("=====Operators:=====\n")
         #print("Total:",self.count_ops,"\n")
         #print(self.ops)
         return self.ops
 
-    def output_delim(self):
+    def output_delim(self): #3
         #print("=====Delimiters:=====\n")
         #print("Total:",self.count_delim,"\n")
         #print(self.delim)
@@ -177,7 +178,7 @@ class lexanalysis(object):
         #print(self.inv)
         return self.inv
 
-    def output_keyw(self):
+    def output_keyw(self): #4
         #print("=====KeyWords:=====\n")
         #print("Total:",self.count_keyw,"\n")
         #print(self.keyw)
@@ -186,6 +187,12 @@ class lexanalysis(object):
     def total_token(self):
         print("Total number of tokens: ", self.count_cons + self.count_delim + self.count_id + self.count_inv + self.count_ops + self.count_keyw)
 
-
+    def reset_data(self):
+        self.id = []
+        self.cons = []
+        self.ops = []
+        self.delim = []
+        self.inv = []
+        self.keyw = []
 
 
